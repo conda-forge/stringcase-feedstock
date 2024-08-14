@@ -27,8 +27,8 @@ test:
     - stringcase
   requires:
     - pip
-  commands:
-    - pip check
+    - pytest
+    - coverage
 
 about:
   home: https://github.com/okunishinishi/python-stringcase
